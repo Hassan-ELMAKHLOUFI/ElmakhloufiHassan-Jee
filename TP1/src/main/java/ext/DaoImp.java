@@ -1,6 +1,6 @@
 package ext;
 
-import doa.IDao;
+import dao.IDao;
 import org.springframework.stereotype.Component;
 
 @Component("dao1")

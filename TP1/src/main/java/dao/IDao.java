@@ -1,4 +1,4 @@
-package doa;
+package dao;
 
 
 public interface IDao {

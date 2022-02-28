@@ -1,6 +1,6 @@
 package ext;
 
-import doa.IDao;
+import dao.IDao;
 import metier.IMetier;
 
 public class MetierImp implements IMetier {

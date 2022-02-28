@@ -1,7 +1,7 @@
 package Presentation;
 
-import doa.DaoImp;
-import doa.IDao;
+import dao.DaoImp;
+import dao.IDao;
 import metier.MetierImp;
 
 public class PresentationStatique {
