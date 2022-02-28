@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="FrameworkIOC" />
+        <module name="TP1" />
+        <module name="Enset-ioc-2" />
       </profile>
     </annotationProcessing>
   </component>
