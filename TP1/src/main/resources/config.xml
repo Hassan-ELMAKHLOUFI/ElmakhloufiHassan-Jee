@@ -6,7 +6,7 @@
 <!--<bean id="metier" class="metier.MetierImp">-->
 <!--    <constructor-arg name="dao" ref="d" />-->
 <!--</bean>-->
-    <bean id="metier" class="metier.MetierImp">
-        <property name="dao" ref="d"/>
+    <bean id="metier" class="metier.clMetierImp" >
+        <property name="dao" ref="d" />
     </bean>
 </beans>
