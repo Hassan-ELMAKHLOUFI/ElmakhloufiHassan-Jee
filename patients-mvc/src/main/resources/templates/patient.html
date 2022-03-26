@@ -10,13 +10,23 @@
 
  <div class="container mt-2">
      <div class="card">
-         <div class="card-header">liste des patient</div>
+         <div class="card-header" style="background-color: #621f44; color:white; display: flex;">
+
+             <div >liste des patient</div>
+
+             <div> <a style="text-decoration: none; color: white; margin-left: 10px;" th:href="@{Ajouter}">Ajouter</a></div>
+
+
+
+                 <form method="get" class="d-flex" style="margin-left: 40%;" th:action="@{index}">
+                     <input type="text" name="keyword" class="form-control me-2" th:value="${keyword}" >
+                     <button type="submit" class="btn btn-outline-success" >chercher</button>
+                 </form>
+
+
+         </div>
          <div class="body">
-             <form method="get" th:action="@{index}">
-                 <label>Key word</label>
-                 <input type="text" name="keyword" th:value="${keyword}">
-                 <button type="submit" class="btn-primary">chercher</button>
-             </form>
+
              <table class="table">
                  <thead>
                  <tr>
@@ -37,6 +47,10 @@
                     <td>
                         <a onclick="return confirm('Ete vous sur')" class="btn btn-danger" th:href="@{delete(id=${p.id},keyword=${keyword},page=${currentPage})}">Delete</a>
                     </td>
+
+                     <td>
+                         <a  class="btn btn-warning" th:href="@{edit(id=${p.id})}">Edit</a>
+                     </td>
               </tr>
                  </tbody>
              </table>

@@ -9,9 +9,12 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.scheduling.support.SimpleTriggerContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @Controller
@@ -44,5 +47,25 @@ public class PatientController {
     public String home(){
         return "redirect:/index";
     }
+
+    @GetMapping(path="/Ajouter")
+    public String Ajouter(Model model){
+        model.addAttribute("patient",new Patient());
+        model.addAttribute("mode","new");
+        return "PatientForm";
+    }
+    @PostMapping("/savePatient")
+    public String savePatient(Patient patient){
+        patientRepository.save(patient);
+        return "PatientForm";
+    }
+    @GetMapping("/edit")
+    public String edit(Model model ,Long id){
+        Patient patient = patientRepository.findById(id).get();
+        model.addAttribute("patient",patient);
+        model.addAttribute("mode","edit");
+        return "PatientForm";
+    }
+
 
 }
