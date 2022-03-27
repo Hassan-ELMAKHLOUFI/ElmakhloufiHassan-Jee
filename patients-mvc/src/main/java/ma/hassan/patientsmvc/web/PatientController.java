@@ -55,12 +55,15 @@ public class PatientController {
         return "PatientForm";
     }
     @PostMapping("/savePatient")
-    public String savePatient(Patient patient){
+    public String savePatient(Patient patient,BindingResult bindingResult){
+        if(bindingResult.hasErrors())
+            return"PatientForm";
         patientRepository.save(patient);
         return "PatientForm";
     }
     @GetMapping("/edit")
     public String edit(Model model ,Long id){
+
         Patient patient = patientRepository.findById(id).get();
         model.addAttribute("patient",patient);
         model.addAttribute("mode","edit");
