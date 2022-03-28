@@ -1,60 +1,100 @@
 # ElmakhloufiHassan-Jee
 
-Compte Rendu du TP1 : https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/TP1.pdf
+<!-- Compte Rendu du TP1 : https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/TP1.pdf
 
 Compte Rendu du TP2 : https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tp2.pdf
 
 Compte Rendu de Hospital: https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Hospital.pdf
 
-Compte Rendu du TP User_Role:https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/User_roles.pdf
+Compte Rendu du TP User_Role:https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/User_roles.pdf -->
 
 <div id="top"></div>
 
+<details> 
+<summary>TP 1</summary>
 
 
 
-<!-- TABLE OF CONTENTS -->
+* [Compte Rendu du TP1](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/TP1.pdf)
+
+</details>
+
+<details> 
+<summary>TP 2</summary>
+  
+* [Compte Rendu du TP 2](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tp2.pdf)
+  
+</details>
+
+<details> 
+<summary>TP Gestion Hospital</summary>
+  
+* [Compte Rendu du TP Gestion Hospital](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Hospital.pdf)
+  
+</details>
+
+<details> 
+<summary>TP Gestion des patients User Roles(ManyToMany)</summary>
+  
+* [Compte Rendu du TP Gestion des patients User Roles(ManyToMany)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/User_roles.pdf)
+  
+</details>
+
 <details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
+  <summary>TP Gestion des patients Spring mvc</summary>
+  
+About The Project
+
+-Entity
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tmp/entiry.jpg" style="margin-left: 0px !important;" height="400" width="800" alt="Italian Trulli">
+
+-Repository
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tmp/repo.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+
+- Page Index
+
+-Methode index du Contoller
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tmp/index-controller.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tmp/index.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+- Modification
+
+- Methode Qui retourne la vue du modification
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tmp/edit.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tmp/update.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+
+
+
+- Ajout
+
+- Methode Qui retourne la vue de l'ajout
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tmp/ajouter.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tmp/add.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+
+- Validation du formulaire
+
+- Entity 
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tmp/validation1.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+
+- Controller
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tmp/validation2.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+<p align="right">(<a href="#top">back to top</a>)</p>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-
--Entity
-
-<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tmp/entiry.jpg" style="margin-left: 0px !important;" alt="Italian Trulli">
-
--Repository
-
-<img src="repo.jpg" style="margin-left: 0px !important; height:40px !important;" alt="Italian Trulli">
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 
 <!-- * [Bootstrap](https://getbootstrap.com)
@@ -63,11 +103,7 @@ Compte Rendu du TP User_Role:https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHa
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
