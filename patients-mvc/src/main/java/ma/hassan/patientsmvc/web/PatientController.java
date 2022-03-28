@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.validation.Valid;
-import java.util.List;
+
 
 @Controller
 @AllArgsConstructor
@@ -55,11 +55,11 @@ public class PatientController {
         return "PatientForm";
     }
     @PostMapping("/savePatient")
-    public String savePatient(Patient patient,BindingResult bindingResult){
+    public String savePatient(@Valid Patient patient, BindingResult bindingResult){
         if(bindingResult.hasErrors())
             return"PatientForm";
         patientRepository.save(patient);
-        return "PatientForm";
+        return "redirect:/PatientForm";
     }
     @GetMapping("/edit")
     public String edit(Model model ,Long id){
