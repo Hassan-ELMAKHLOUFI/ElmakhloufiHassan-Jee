@@ -25,6 +25,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
        http.formLogin();
        http.authorizeHttpRequests().anyRequest().authenticated();
+       http.exceptionHandling().accessDeniedPage("/403");
     }
     @Bean
     PasswordEncoder passwordEncoder(){
