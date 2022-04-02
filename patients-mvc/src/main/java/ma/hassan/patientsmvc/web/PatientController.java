@@ -40,12 +40,12 @@ public class PatientController {
     @GetMapping("/admin/delete")
     public String delete(Long id,String keyword,int page){
         patientRepository.deleteById(id);
-        return "redirect:/index?page="+page+"&keyword="+keyword;
+        return "redirect:/user/index?page="+page+"&keyword="+keyword;
     }
 
     @GetMapping("/")
     public String home(){
-        return "redirect:/index";
+        return "redirect:/user/index";
     }
 
     @GetMapping(path="/admin/Ajouter")
