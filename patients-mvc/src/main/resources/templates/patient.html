@@ -17,11 +17,11 @@ layout:decorate="template1">
 
              <div >liste des patient</div>
 
-             <div> <a style="text-decoration: none; color: white; margin-left: 10px;" th:href="@{user/Ajouter}">Ajouter</a></div>
+             <div> <a style="text-decoration: none; color: white; margin-left: 10px;" th:href="@{/admin/Ajouter}">Ajouter</a></div>
 
 
 
-                 <form method="get" class="d-flex" style="margin-left: 40%;" th:action="@{user/index}">
+                 <form method="get" class="d-flex" style="margin-left: 40%;" th:action="@{/user/index}">
                      <input type="text" name="keyword" class="form-control me-2" th:value="${keyword}" >
                      <button type="submit" class="btn btn-outline-success" >chercher</button>
                  </form>
@@ -47,12 +47,12 @@ layout:decorate="template1">
                      <td th:text="${p.getDateNaissance()}"></td>
                      <td th:text="${p.malade}"></td>
                      <td th:text="${p.score}"></td>
-                    <td sec:authorize="hasRole('ADMIN')">
-                        <a onclick="return confirm('Ete vous sur')" class="btn btn-danger" th:href="@{admin/delete(id=${p.id},keyword=${keyword},page=${currentPage})}">Delete</a>
+                    <td sec:authorize="hasRole('admin')">
+                        <a onclick="return confirm('Ete vous sur')" class="btn btn-danger" th:href="@{/admin/delete(id=${p.id},keyword=${keyword},page=${currentPage})}">Delete</a>
                     </td>
 
                      <td>
-                         <a  class="btn btn-warning" th:href="@{admin/edit(id=${p.id})}">Edit</a>
+                         <a  class="btn btn-warning" th:href="@{/admin/edit(id=${p.id})}">Edit</a>
                      </td>
               </tr>
                  </tbody>
