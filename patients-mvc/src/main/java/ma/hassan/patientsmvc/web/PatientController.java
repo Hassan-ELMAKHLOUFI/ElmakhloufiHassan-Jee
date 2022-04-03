@@ -59,7 +59,7 @@ public class PatientController {
         if(bindingResult.hasErrors())
             return"PatientForm";
         patientRepository.save(patient);
-        return "redirect:/PatientForm";
+        return "redirect:/user/index";
     }
     @GetMapping("/admin/edit")
     public String edit(Model model ,Long id){
@@ -67,7 +67,7 @@ public class PatientController {
         Patient patient = patientRepository.findById(id).get();
         model.addAttribute("patient",patient);
         model.addAttribute("mode","edit");
-        return "PatientForm";
+        return "redirect:/user/index";
     }
 
 
