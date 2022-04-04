@@ -51,7 +51,7 @@ layout:decorate="template1">
                         <a onclick="return confirm('Ete vous sur')" class="btn btn-danger" th:href="@{/admin/delete(id=${p.id},keyword=${keyword},page=${currentPage})}">Delete</a>
                     </td>
 
-                     <td>
+                     <td sec:authorize="hasRole('admin')">
                          <a  class="btn btn-warning" th:href="@{/admin/edit(id=${p.id})}">Edit</a>
                      </td>
               </tr>
