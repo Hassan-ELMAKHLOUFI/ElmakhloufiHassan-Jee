@@ -20,13 +20,13 @@ public class SecurityServiceImp implements SecurityService{
 
     private AppUserRepository appUserRepository;
     private AppRoleRepository appRoleRepository;
-    private PasswordEncoder passwordEncoder;
+    private PasswordEncoder myPasswordEncoder;
 
 
     @Override
     public AppUser saveNewUser(String username, String password, String rePassword) {
         if(!password.equals(rePassword)) throw new RuntimeException("Password not match");
-        String hachedPWD =passwordEncoder.encode(password);
+        String hachedPWD =myPasswordEncoder.encode(password);
 
         AppUser appUser= new AppUser();
         appUser.setUserid(UUID.randomUUID().toString());
