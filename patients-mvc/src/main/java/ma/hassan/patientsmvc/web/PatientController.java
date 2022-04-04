@@ -67,7 +67,7 @@ public class PatientController {
         Patient patient = patientRepository.findById(id).get();
         model.addAttribute("patient",patient);
         model.addAttribute("mode","edit");
-        return "redirect:/user/index";
+        return "PatientForm";
     }
 
 
