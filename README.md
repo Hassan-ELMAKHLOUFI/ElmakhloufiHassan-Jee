@@ -11,37 +11,37 @@ Compte Rendu du TP User_Role:https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHa
 <div id="top"></div>
 
 <details> 
-<summary>TP 1</summary>
+<summary>TP 1 (Clickez pour voir le compte rendu 🖱️)</summary>
 
 
 
-* [Compte Rendu du TP1 (Click pour voir le compte rendu 🖱️)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/TP1.pdf)
+* [Compte Rendu du TP1 (Clickez pour voir le compte rendu 🖱️)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/TP1.pdf)
 
 </details>
 
 <details> 
-<summary>TP 2</summary>
+<summary>TP 2 (Clickez pour voir le compte rendu 🖱️)</summary>
   
-* [Compte Rendu du TP 2 (Click pour voir le compte rendu 🖱️)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tp2.pdf)
-  
-</details>
-
-<details> 
-<summary>TP Gestion Hospital</summary>
-  
-* [Compte Rendu du TP Gestion Hospital (Click pour voir le compte rendu 🖱️)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Hospital.pdf)
+* [Compte Rendu du TP 2 (Clickez pour voir le compte rendu 🖱️)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tp2.pdf)
   
 </details>
 
 <details> 
-<summary>TP Gestion des patients User Roles(ManyToMany)</summary>
+<summary>TP Gestion Hospital (Clickez pour voir le compte rendu 🖱️)</summary>
   
-* [Compte Rendu du TP Gestion des patients User Roles(ManyToMany) (Click pour voir le compte rendu 🖱️)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/User_roles.pdf)
+* [Compte Rendu du TP Gestion Hospital (Clickez pour voir le compte rendu 🖱️)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Hospital.pdf)
+  
+</details>
+
+<details> 
+<summary>TP Gestion des patients User Roles(ManyToMany) (Clickez pour voir le compte rendu 🖱️)</summary>
+  
+* [Compte Rendu du TP Gestion des patients User Roles(ManyToMany) (Clickez pour voir le compte rendu 🖱️)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/User_roles.pdf)
   
 </details>
 
 <details>
-  <summary>TP Gestion des patients Spring mvc</summary>
+  <summary>TP Gestion des patients Spring mvc (Clickez pour voir le compte rendu 🖱️)</summary>
   
 About The Project
 
