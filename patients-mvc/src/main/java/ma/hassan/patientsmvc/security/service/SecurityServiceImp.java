@@ -31,7 +31,7 @@ public class SecurityServiceImp implements SecurityService{
         AppUser appUser= new AppUser();
         appUser.setUserid(UUID.randomUUID().toString());
         appUser.setUsername(username);
-        appUser.setPassword(password);
+        appUser.setPassword(hachedPWD);
         appUser.setActive(true);
         return appUserRepository.save(appUser);
     }
@@ -43,6 +43,7 @@ public class SecurityServiceImp implements SecurityService{
         if(appRole!= null){
             throw new RuntimeException("user");
         }
+        appRole = new AppRole();
         appRole.setRoleName(roleName);
         appRole.setDescription(description);
         appRole=appRoleRepository.save(appRole);
@@ -72,6 +73,6 @@ public class SecurityServiceImp implements SecurityService{
 
     @Override
     public AppUser loadUserByUsername(String username) {
-        return null;
+        return appUserRepository.findAppUserByUsername(username);
     }
 }
