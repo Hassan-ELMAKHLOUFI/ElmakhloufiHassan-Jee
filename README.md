@@ -15,28 +15,28 @@ Compte Rendu du TP User_Role:https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHa
 
 
 
-* [Compte Rendu du TP1](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/TP1.pdf)
+* [Compte Rendu du TP1 (Click pour voir le compte rendu 🖱️)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/TP1.pdf)
 
 </details>
 
 <details> 
 <summary>TP 2</summary>
   
-* [Compte Rendu du TP 2](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tp2.pdf)
+* [Compte Rendu du TP 2 (Click pour voir le compte rendu 🖱️)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/tp2.pdf)
   
 </details>
 
 <details> 
 <summary>TP Gestion Hospital</summary>
   
-* [Compte Rendu du TP Gestion Hospital](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Hospital.pdf)
+* [Compte Rendu du TP Gestion Hospital (Click pour voir le compte rendu 🖱️)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Hospital.pdf)
   
 </details>
 
 <details> 
 <summary>TP Gestion des patients User Roles(ManyToMany)</summary>
   
-* [Compte Rendu du TP Gestion des patients User Roles(ManyToMany)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/User_roles.pdf)
+* [Compte Rendu du TP Gestion des patients User Roles(ManyToMany) (Click pour voir le compte rendu 🖱️)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/User_roles.pdf)
   
 </details>
 
