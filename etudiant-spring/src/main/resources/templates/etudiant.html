@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
+layout:decorate="template1">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.1.3/css/bootstrap.min.css">
+</head>
+<body>
+<div layout:fragment="content">
+
+ <div class="container mt-lg-5">
+     <div class="card">
+         <div class="card-header" style="background-color: #621f44; color:white; display: flex;">
+
+             <div >liste des etudiants</div>
+
+             <div> <a style="text-decoration: none; color: white; margin-left: 10px;" th:href="@{/admin/Ajouter}">Ajouter</a></div>
+
+
+
+                 <form method="get" class="d-flex" style="margin-left: 40%;" th:action="@{/user/index}">
+                     <input type="text" name="keyword" class="form-control me-2" th:value="${keyword}" >
+                     <button type="submit" class="btn btn-outline-success" >chercher</button>
+                 </form>
+
+
+         </div>
+         <div class="body">
+
+             <table class="table">
+                 <thead>
+                 <tr>
+                     <th>id</th>
+                     <th>nom</th>
+                     <th>Prenom</th>
+                     <th>Email</th>
+                     <th>Date</th>
+                     <th>Genre</th>
+                     <th>Regle</th>
+                 </tr>
+                 </thead>
+                 <tbody>
+                 <tr th:each="e:${etudiantList}">
+                     <td th:text="${e.id}"></td>
+                     <td th:text="${e.nom}"></td>
+                     <td th:text="${e.prenom}"></td>
+                     <td th:text="${e.email}"></td>
+                     <td th:text="${e.dateNaissance}"></td>
+                     <td th:text="${e.genre}"></td>
+                     <td th:text="${e.regle}"></td>
+                    <td sec:authorize="hasAuthority('admin')">
+                        <a onclick="return confirm('Ete vous sur')" class="btn btn-danger" th:href="@{/admin/delete(id=${e.id},keyword=${keyword},page=${currentPage})}">Delete</a>
+                    </td>
+
+                     <td sec:authorize="hasAuthority('admin')">
+                         <a  class="btn btn-warning" th:href="@{/admin/edit(id=${e.id})}">Edit</a>
+                     </td>
+              </tr>
+                 </tbody>
+             </table>
+             <ul class="nav nav-pills">
+                 <li th:each="page,status:${pages}">
+                     <a th:class="${status.index==currentPage?'btn btn-info ms-1':'btn btn-outline-info ms-1'}" class="btn btn-outline-primary"
+                        th:text="${status.index}"
+                        th:href="@{/user/index(page=${status.index},keyword=${keyword})}"
+                     ></a>
+                 </li>
+             </ul>
+
+         </div>
+     </div>
+ </div>
+</div>
+</body>
+</html>

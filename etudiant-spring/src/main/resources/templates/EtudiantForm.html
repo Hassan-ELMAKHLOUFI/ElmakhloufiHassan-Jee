@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="template1"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.1.3/css/bootstrap.min.css">
+</head>
+<body>
+
+<div layout:fragment="content">
+<div class="container mt-lg-5">
+    <div class="card ">
+       <div class="card-header" style="background-color: #621f44; color:white;">
+           <div th:if="${mode}=='new'">Ajouter un etudiant</div>
+           <div th:if="${mode}=='edit'">Modifier l'etudiant</div>
+       </div>
+        <div class="card-body ">
+            <div class="container">
+                <form th:action="@{saveEtudiant}" method="post">
+
+                    <div class="form-group mt-lg-4">
+                        <label class="control-label">Id :</label>
+                        <input type="text" th:value="${etudiant.id}" name="id" class="form-control" style="pointer-events:none;">
+                        <span th:errors="${etudiant.id}"></span>
+                    </div>
+
+                    <div class="form-group mt-lg-2">
+                        <label class="control-label">Nom :</label>
+                        <input type="text" name="nom" th:value="${etudiant.nom}" class="form-control">
+                        <span th:errors="${etudiant.nom}"></span>
+                    </div>
+
+                    <div class="form-group mt-lg-2">
+                        <label class="control-label">Prenom :</label>
+                        <input type="text" name="prenom" th:value="${etudiant.prenom}" class="form-control">
+                        <span th:errors="${etudiant.prenom}"></span>
+                    </div>
+
+                    <div class="form-group mt-lg-2">
+                        <label class="control-label">Email :</label>
+                        <input type="text" name="email" th:value="${etudiant.email}" class="form-control">
+                        <span th:errors="${etudiant.email}"></span>
+                    </div>
+
+                    <div class="form-group mt-lg-4">
+                        <label class="control-label">Date Naissance :</label>
+                        <input type="date" name="DateNaissance" th:value="${etudiant.dateNaissance}" class="form-control">
+                        <span th:errors="${etudiant.dateNaissance}"></span>
+                    </div>
+<!--                    <div class="form-group mt-lg-4">-->
+<!--                        <label class="control-label">Genre :</label>-->
+<!--                        <input type="checkbox" th:checked="${etudiant.genre}" name="genre" >-->
+<!--                        <span th:errors="${etudiant.genre}"></span>-->
+<!--                    </div>-->
+
+                    <div class="form-group mt-lg-4">
+                    <label class="control-label">Genre :</label>
+                    <select class="form-select" aria-label="Default select example" th:field="${etudiant.genre}" name="genre">
+                        <option th:value="Homme" th:text="Male" ></option>
+                        <option th:value="femme" th:text="Female"></option>
+                    </select>
+                    </div>
+
+                    <div class="form-group mt-lg-4">
+                        <label class="control-label">Regle :</label>
+                    <select class="form-select" aria-label="Default select example" th:field="${etudiant.regle}" name="genre">
+                        <option th:value="true" th:text="true" ></option>
+                        <option th:value="false" th:text="false"></option>
+                    </select>
+                    </div>
+
+
+                    <button type="submit"  class="btn btn-success mt-lg-4">Save</button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

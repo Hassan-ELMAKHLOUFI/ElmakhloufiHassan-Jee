@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<grains>
+    <grain id="1" classe="Utilisateur" >
+        <propriete nom="password" value="ilass"/>
+        <propriete nom="nom" value="hassan1"/>
+    </grain>
+    <grain id="2" classe="Utilisateur"  >
+        <propriete nom="password" value="hassan"/>
+        <propriete nom="nom" value="hassan1"/>
+
+    </grain>
+    <grain id="3" classe="compte">
+        <constructeur nom="utilisateur" ref="1"/>
+    </grain>
+</grains>
