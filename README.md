@@ -128,7 +128,6 @@ About The Project
 -ProductDTO
 
 <img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/productDTO.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
-</details>
 
 -Mappers
 
