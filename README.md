@@ -105,10 +105,10 @@ About The Project
 
 -Entity Category
 <img src="https://github.com/HassanELMAKHLOUFI/ElmakhloufiHassanJee/blob/main/TmpCatalog/entityCategory.jpg" style="margin-left: 0px !important;" height="400" width="800" alt="Italian Trulli">
-  
+<br>
 -Entity Produit
 <img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/entityProduct.jpg" style="margin-left: 0px !important;" height="400" width="800" alt="Italian Trulli">
-
+<br>
 -Repository Product
 
 <img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/entityProduct.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
@@ -116,31 +116,33 @@ About The Project
 -Repository Category
 
 <img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/catalogRepository.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+<br>
 -DTOs
 -CategoryDTO
 
 <img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/catalogDTO.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
-
+<br>
 -ProductDTO
 
 <img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/productDTO.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
-
+<br>
 -Mappers
 
 <img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/CatalogMappers.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
-
+<br>
 -interface de Service
 
 <img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/ProductService.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
-
+<br>
 
 -Une implimentation de l'interface de Service
 
 <img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/ProductServiceImp.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
-
+<br>
 -Controller 
 
 <img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/ProductController.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+<br>
 </details>
 <!-- ABOUT THE PROJECT -->
 
