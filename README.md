@@ -107,12 +107,12 @@ About The Project
 <img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/entityCategory.jpg" style="margin-left: 0px !important;" height="400" width="800" alt="Italian Trulli"><br/>
 
 
--Entity Produit
+-Entity Produit <br/>
 <img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/entityProduct.jpg" style="margin-left: 0px !important;" height="400" width="800" alt="Italian Trulli"><br/>
 
--Repository Product
+-Repository Product <br/>
 
-<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/entityProduct.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli"><br/>
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/productRepository.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli"><br/>
 
 -Repository Category
 
