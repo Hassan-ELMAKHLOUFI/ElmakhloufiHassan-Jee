@@ -94,6 +94,62 @@ About The Project
 
 
 
+
+
+<details> 
+<summary>TP Gestion des patients User Roles(ManyToMany) (Clickez pour voir le compte rendu 🖱️)</summary>
+  
+* [Compte Rendu du TP Gestion des patients User Roles(ManyToMany) (Clickez pour voir le compte rendu 🖱️)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/User_roles.pdf)
+  
+</details>
+
+<details>
+  <summary>TP Gestion Des produits et category (Clickez pour voir le compte rendu 🖱️)</summary>
+  
+About The Project
+
+-Entity Category
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/entityCategory.jpg" style="margin-left: 0px !important;" height="400" width="800" alt="Italian Trulli">
+  
+-Entity Produit
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/entityProduct.jpg" style="margin-left: 0px !important;" height="400" width="800" alt="Italian Trulli">
+
+-Repository Product
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/entityProduct.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+-Repository Category
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/catalogRepository.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+-DTOs
+-CategoryDTO
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/catalogDTO.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+
+-ProductDTO
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/productDTO.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+</details>
+
+-Mappers
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/CatalogMappers.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+</details>
+
+-interface de Service
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/ProductService.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+
+
+-Une implimentation de l'interface de Service
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/ProductServiceImp.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+
+-Controller 
+
+<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/ProductController.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
+</details>
 <!-- ABOUT THE PROJECT -->
 
 
