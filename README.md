@@ -104,7 +104,7 @@ About The Project
   <summary>TP Gestion Des produits et category (Clickez pour voir le compte rendu 🖱️)</summary>  
 
 -Entity Category
-<img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassanJee/blob/main/TmpCatalog/entityCategory.jpg"style="marginleft:0px!important;"height="400" width="800" alt="Italian Trulli">
+<img src="https://github.com/HassanELMAKHLOUFI/ElmakhloufiHassanJee/blob/main/TmpCatalog/entityCategory.jpg" style="margin-left: 0px !important;" height="400" width="800" alt="Italian Trulli">
   
 -Entity Produit
 <img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/entityProduct.jpg" style="margin-left: 0px !important;" height="400" width="800" alt="Italian Trulli">
