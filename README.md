@@ -129,7 +129,6 @@ About The Project
 -Mappers
 
 <img src="https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/Tmp-Catalog/CatalogMappers.jpg" style="margin-left: 0px !important;" height="300" width="800" alt="Italian Trulli">
-</details>
 
 -interface de Service
 
