@@ -26,7 +26,7 @@ Compte Rendu du TP User_Role:https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHa
   
 </details>
 <details> 
-<summary>TP 2 (Clickez pour voir le compte rendu 🖱️)</summary>
+<summary>Compte Rendu du Mini Projet Framework(Clickez pour voir le compte rendu 🖱️)</summary>
   
 * [Compte Rendu du Mini Projet Framework (Clickez pour voir le compte rendu 🖱️)](https://github.com/Hassan-ELMAKHLOUFI/ElmakhloufiHassan-Jee/blob/main/framework.pdf)
   
